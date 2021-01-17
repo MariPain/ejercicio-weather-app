@@ -1,0 +1,27 @@
+{
+    "name": "ejercicio-weather-app",
+    "version": "1.0.0",
+    "description": "Build a Weather Website in 30 minutes with Node.js + Express + OpenWeather",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MariPain/ejercicio-weather-app.git"
+    },
+    "author": "Mariola Pedraza",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MariPain/ejercicio-weather-app/issues"
+    },
+    "homepage": "https://github.com/MariPain/ejercicio-weather-app#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7",
+        "request": "^2.88.2"
+    }
+}
